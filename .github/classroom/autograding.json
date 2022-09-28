@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "T1",
+      "setup": "",
+      "run": "g++ -std=c++11 main.cpp && ./a.out",
+      "input": "20 100",
+      "output": "[4.8]",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "T2",
+      "setup": "",
+      "run": "g++ -std=c++11 main.cpp && ./a.out",
+      "input": "10 1000",
+      "output": "[9.6]",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "T3",
+      "setup": "",
+      "run": "g++ -std=c++11 main.cpp && ./a.out",
+      "input": "15 20000",
+      "output": "[192]",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
